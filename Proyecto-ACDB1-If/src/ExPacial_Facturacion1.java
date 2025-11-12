@@ -17,9 +17,9 @@ public class ExPacial_Facturacion1 {
         //If ternario
         //desc = (subTot > 1000) ? (subTot * 0.2) : (subTot * 0.05) ;
         if (subTot > 1000)
-            desc = (subTot * 0.2);
+            desc = (subTot_Iva * 0.2);
         else
-            desc = (subTot * 0.05);
+            desc = (subTot_Iva * 0.05);
         total = (subTot_Iva - desc + costTrnsp);
         if (subTot_Iva > 5000)
             total -= costTrnsp;
@@ -29,7 +29,5 @@ public class ExPacial_Facturacion1 {
         System.out.println("Subtotal: " + subTot + "\n" + "IVA: " + iva + "\n" + "SubTot_Iva: " + subTot_Iva +
                            "\n" + "Descuento: " + desc + "\n" + "Gastos de envío: " + costTrnsp +
                            "\n" + "MONTO FACTURA: " + total);
-        
-        
     }
 }
