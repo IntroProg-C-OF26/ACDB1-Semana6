@@ -26,7 +26,9 @@ public class ExPacial_Facturacion1 {
         System.out.println("PRODUCTO  CANTIDAD  PRECIO  SUBTOTAL");
         System.out.println(nombPrd1 + "\t" + cantPrd1 + "\t" + costPrd1 + "\t " + (cantPrd1 * costPrd1));
         System.out.println(nombPrd2 + "\t" + cantPrd2 + "\t" + costPrd2 + "\t " + (cantPrd2 * costPrd2));
-        
+        System.out.println("Subtotal: " + subTot + "\n" + "IVA: " + iva + "\n" + "SubTot_Iva: " + subTot_Iva +
+                           "\n" + "Descuento: " + desc + "\n" + "Gastos de envío: " + costTrnsp +
+                           "\n" + "MONTO FACTURA: " + total);
         
         
     }
