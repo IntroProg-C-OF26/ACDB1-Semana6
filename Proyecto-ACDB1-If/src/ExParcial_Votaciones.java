@@ -20,5 +20,10 @@ public class ExParcial_Votaciones {
             resultadosElect = "EMPATE";
         if (votosEmitidos > numEmpadronados)
             resultadosElect = "FRAUDE";
+        System.out.println("RESULTADOS ELECTORALES: ");
+        System.out.println("Empadronados: " + numEmpadronados);
+        System.out.println("Emitidos: " + votosEmitidos);
+        System.out.println("Participacion: " + porcParcipacion);
+        System.out.println("*** RESULTADOS *** :  " + resultadosElect);
     }
 }
